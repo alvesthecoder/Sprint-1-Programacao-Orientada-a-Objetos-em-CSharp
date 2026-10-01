@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="SistemaBancario.Tests\**" />
+    <EmbeddedResource Remove="SistemaBancario.Tests\**" />
+    <None Remove="SistemaBancario.Tests\**" />
+  </ItemGroup>
 </Project>
