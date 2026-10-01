@@ -54,7 +54,7 @@ class Program
                     break;
                 case 8:
                     executando = false;
-                    Console.WriteLine("\nObrigado por utilizar o Sistema Bancário SENAI. Até logo!");
+                    Console.WriteLine("\nObrigado por utilizar o Sistema Bancário Mares. Até logo!");
                     break;
                 default:
                     Console.WriteLine("\nOpção inválida. Por favor, escolha de 1 a 8.");
@@ -153,9 +153,10 @@ class Program
     private static void ExibirMenu()
     {
         Console.WriteLine();
-        Console.WriteLine("================================================");
-        Console.WriteLine("          SISTEMA BANCARIO - SENAI");
-        Console.WriteLine("================================================");
+        Console.WriteLine("=========================================================");
+        Console.WriteLine("                SISTEMA BANCARIO - MARES");
+        Console.WriteLine("   O sistema bancário nº 1 da Baía de Todos-os-Santos");
+        Console.WriteLine("=========================================================");
         Console.WriteLine("  1. Criar Nova Conta");
         Console.WriteLine("  2. Depositar");
         Console.WriteLine("  3. Sacar");
